@@ -51,25 +51,6 @@ app.post('/api/v1/transaction/charge', async (req, res) => {
   });
 });
 
-app.post('/api/v1/transaction/capture', async (req, res) => {
-  const payload = req.body;
-  const result = await commandHandler.insertCaptureTransaction(payload);
-  if (result.err) {
-    return res.send(result.err.code, {
-      success: result.err.status,
-      data: '',
-      message: result.err.message,
-      code: result.err.code,
-    });
-  }
-  return res.send(200, {
-    success: true,
-    data: result.data,
-    message: result.data.status_message,
-    code: 200,
-  });
-});
-
 app.listen(port, () => {
   // eslint-disable-next-line no-console
   console.log(`Server is runnning at http://localhost:${port}`);
