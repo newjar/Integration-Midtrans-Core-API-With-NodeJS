@@ -1,13 +1,13 @@
-#### Example integration Midtrans CoreApi with NodeJS
+### Example integration Midtrans Core API with NodeJS
 
-###### Prerequisites
+### Prerequisites
 
 ```
 NodeJS
 NPM
 ```
 
-###### Installing
+### Installing
 * Create ENV file (.env) on the root folder with this configuration
 
 ```
