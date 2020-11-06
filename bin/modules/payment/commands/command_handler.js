@@ -6,12 +6,6 @@ const insertChargeTransaction = async (payload) => {
   return postCommand(payload);
 };
 
-const insertCaptureTransaction = async (payload) => {
-  const payment = new Payment();
-  const postCommand = async (payload) => payment.insertCaptureTransaction(payload);
-  return postCommand(payload);
-};
-
 module.exports = {
   insertChargeTransaction,
   insertCaptureTransaction,
