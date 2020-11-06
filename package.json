@@ -1,0 +1,35 @@
+{
+  "name": "integrasi-midtrans-nodejs",
+  "version": "1.0.0",
+  "description": "Integrasi Midtrans Menggunakan NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Integrasi",
+    "Midtrans",
+    "Payment",
+    "NodeJS"
+  ],
+  "author": "newjar.github.io",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "confidence": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "midtrans-client": "^1.2.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-macros": "^2.8.0",
+    "eslint": "^7.12.1",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.1.2"
+  }
+}
