@@ -27,4 +27,6 @@ $ npm install
 $ npm start
 ```
 
+in case you need example Postman Collection, you can import from [Here](https://www.getpostman.com/collections/b08a0c121210a0b37f18)
+
 ### Enjoy! :)
