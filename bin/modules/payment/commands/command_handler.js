@@ -8,5 +8,4 @@ const insertChargeTransaction = async (payload) => {
 
 module.exports = {
   insertChargeTransaction,
-  insertCaptureTransaction,
 };
